@@ -1,15 +1,115 @@
 ﻿body {
+    padding-top:0px;
 }
 
-nav#menu navbar navbar-static-top{
-
+nav#menu.navbar.navbar-static-top{
+    margin-top:0px;
+    margin-bottom:0px;
+    color:#fff6f0;
+    background-color:#5DBCD2;
+}
+#menu a{
+    color:#fff6f0;
+}
+#menu a:hover{
+    background-color: #5DBCD2;
 }
 
 #imgHead {
-    
+    margin: auto;
+    height: auto;
     
 }
 #imgHead2{
+    margin:auto;
+    height:auto;
+}
+.mainHeader {
+   position:center;
+   color:white;
+   
+}
+.subHeader{
+    color:white;
+    position:center;
+}
+.totalHeader{
+    color:white;
+    text-align:center;
+}
+#mainBanner{
+    background-image: url('TuscanyVilla/tuscany-villas-sant-anna.jpg');
+    background-repeat:no-repeat;
+    height:300px;
+
+}
+#mappyThing {
+    background-image: url('TuscanyVilla/Versilia.jpg');
+    background-repeat:no-repeat;
+    height:300px;
+}
+
+.sectionHeader{
+    text-align:center;
+    background-color:#5DBCD2;
     
 }
+
+.subImages,img{
+    height:200px;
+    width:200px;
+
+}
+#amenitiesHead{
+    text-align:center;
+    margin-left:80px;
+    margin-right:80px;
+    background-color:#5DBCD2;
+}
+#receptions {
+    text-align:center;
+    background-image: url('TuscanyVilla/3b-348x348 (1).jpg');
+    background-repeat:no-repeat;
+    height:300px;
+    
+}
+#relax {
+    background-image: url('TuscanyVilla/42-348x348 (1).jpg');
+    background-repeat:no-repeat;
+    height:300px;
+    
+}
+.reviewSection{
+    text-align:center;
+    background-color:#5DBCD2;
+    padding:3px;
+}
+#home {
+    background-image: url('TuscanyVilla/314-348x348.jpg');
+    background-repeat:no-repeat;
+    height:300px;
+    
+}
+#views {
+    background-image: url('TuscanyVilla/Villa-Rucellai-Toscani-2812-2-348x348.jpg');
+    background-repeat:no-repeat;
+    height:300px;
+    
+}
+#dining {
+    background-image: url('TuscanyVilla/Villa-Vanna-231-348x348.jpg');
+    background-repeat:no-repeat;
+    height:300px;
+    text-align:center;
+    }
+.contactSection{
+    background-color:#5DBCD2;
+    text-align:center;
+}
+.contactInfo{
+    text-align:left;
+}
+
+
+
     

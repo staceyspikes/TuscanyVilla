@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Tuscany Villa</title>
-	<meta charset="utf-8" />
+    <meta charset="utf-8" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <link href="Bootstrap/css/bootstrap.css" rel="stylesheet" />
     <script src="Bootstrap/js/bootstrap.js"></script>
@@ -14,7 +14,7 @@
 <body>
     <!--NavBar-->
     <nav class="navbar navbar-static-top" id="menu">
-        <div class="container">
+        <div class="container-fluid">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed glyphicon glyphicon-menu-hamburger" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                     <span class="sr-only">Toggle Navigation</span>
@@ -36,22 +36,226 @@
         </div>
     </nav>
     <!--Header-->
-    <div class="page-header">
+    <div class="jumbotron mainSection">
         <div class="container">
             <div class="row">
-            <div class="col-lg-9 col-md-3 col-sm-6 col-xs-12">
-                <div class="customDiv"><img id="imgHead" src="TuscanyVilla/tuscany-villas-sant-anna.jpg" /></div>
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                <div class="customDiv"><img id="imgHead2" src="TuscanyVilla/Versilia.jpg" /></div>
+                <div class="col-lg-9 col-md-3 col-sm-6 col-xs-12 totalHeader" id="mainBanner">
+                    <h1 class="mainHeader">Tuscany Villa</h1>
+                    <h2 class="subHeader">We specialize in relaxation</h2>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" id="mappyThing">
+                </div>
+
             </div>
 
         </div>
 
-     </div>
 
-        
+
     </div>
+    <div class="container-fluid sectionHeader">
+        <h1 class="Locations">LOCATIONS</h1>
+        <h2 class="Location">Some places for you to go</h2>
+    </div>
+    <div class="row container">
+        <div class="col-lg-8 subLocation" id="location1">
+            <h3 class="Locations">Location #1 </h3>
+            <h4 class="Locations"></h4>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed dolor at tortor elementum interdum.
+                Duis in dui et augue dignissim facilisis id in lacus. Vestibulum viverra eros sapien, eu maximus lorem tempus sed.
+                Mauris eu interdum sem. Sed pellentesque, ante eu tincidunt rhoncus, lectus nisi mollis ex, sed bibendum nunc
+                purus sed dolor. Phasellus tortor dolor, efficitur a tellus in, pellentesque pulvinar sem. Nullam eget augue id
+                augue maximus ullamcorper quis eget tellus. Sed a tempor lorem. Maecenas at urna sem.
+            </p>
+            <p><a href="a" class="btn btn-primary" role="button">Reserve Now!</a></p>
+
+        </div>
+        <div class="col-lg-4 subImages" id="img1">
+            <img src="TuscanyVilla/italy-mountain-villa.jpeg" />
+        </div>
+        <div class="col-lg-4 subImages" id="img2">
+            <img src="TuscanyVilla/modern-villa.jpeg" />
+        </div>
+        <div class="col-lg-8 subLocation2" id="location2">
+            <h3 class="Locations">Location #2</h3>
+            <h4 class="Locations"></h4>
+            <p>
+                Donec vitae suscipit risus. Curabitur vel hendrerit risus. Praesent et nulla nibh.
+                Praesent facilisis ac eros id lacinia. Aliquam pretium nibh sed magna dignissim, vitae elementum sapien egestas.
+                Nunc aliquam tincidunt ullamcorper. Curabitur efficitur sem vitae sodales volutpat. Nulla rhoncus ac ipsum eu
+                ultrices. Nullam vel sem vel odio vulputate interdum. Mauris luctus nisl at dapibus vulputate. Vestibulum eros
+                dui, pulvinar vehicula tempor at, accumsan tempus metus.
+            </p>
+            <p><a href="a" class="btn btn-primary" role="button">Check It Out!</a></p>
+
+        </div>
+        <div class="col-lg-8 subLocation3" id="location3">
+            <h3 class="Locations">Location #3</h3>
+            <h4 class="Locations"></h4>
+            <p>
+                Suspendisse id mauris ut tellus mollis laoreet ut sit amet dolor.
+                Aenean id metus quis libero ultrices accumsan vitae id turpis. Pellentesque dolor lectus, faucibus
+                in malesuada vel, rhoncus a diam. Nunc mauris arcu, eleifend eu elementum id, vulputate id ligula.
+                In mattis felis vel tortor fringilla volutpat. Cras efficitur quam in massa euismod vulputate.
+                Phasellus nec pellentesque elit. Vivamus condimentum id sapien vitae efficitur.
+            </p>
+            <p><a href="a" class="btn btn-primary" role="button">Join Us!</a></p>
+        </div>
+        <div class="col-lg-4 subImages" id="img3">
+            <img src="TuscanyVilla/tuscany-grape-field-nature-51947.jpeg" />
+        </div>
+    </div>
+
+
+
+    <div class="container-fluid amenities" id="amenitiesHead">
+        <h1 class="amenities">AMENITIES</h1>
+        <h2 class="amenitites">Some stuff for you to enjoy</h2>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-4" id="receptions">
+                <h3>RECEPTIONS</h3>
+            </div>
+            <div class="col-lg-4">
+                <h3>A VILLA FOR EVERY OCCASION</h3>
+                <p>
+                    Suspendisse id mauris ut tellus mollis laoreet ut sit amet dolor. Aenean id metus quis libero ultrices
+                    accumsan vitae id turpis. Pellentesque dolor lectus, faucibus in malesuada vel, rhoncus a diam. Nunc
+                    mauris arcu, eleifend eu elementum id, vulputate id ligula. In mattis felis vel tortor fringilla volutpat.
+                    Cras efficitur quam in massa euismod vulputate. Phasellus nec pellentesque elit. Vivamus condimentum id
+                    sapien vitae efficitur.
+                </p>
+                <p><a href="a" class="btn btn-primary" role="button">Check It Out!</a></p>
+            </div>
+            <div class="col-lg-4" id="relax">
+                <h3>RELAX BY THE POOL</h3>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <h3>WHAT SETS US APART</h3>
+                    <p>
+                        Suspendisse id mauris ut tellus mollis laoreet ut sit amet dolor. Aenean id metus quis libero ultrices
+                        accumsan vitae id turpis. Pellentesque dolor lectus, faucibus in malesuada vel, rhoncus a diam. Nunc mauris
+                        arcu, eleifend eu elementum id, vulputate id ligula. In mattis felis vel tortor fringilla volutpat. Cras
+                        efficitur quam in massa euismod vulputate. Phasellus nec pellentesque elit. Vivamus condimentum id sapien
+                        vitae efficitur.
+                    </p>
+                    <p><a href="a" class="btn btn-primary" role="button">Check It Out!</a></p>
+                </div>
+                <div class="col-lg-4" id="home">
+                    <h3>FEELS LIKE HOME</h3>
+                </div>
+                <div class="col-lg-4">
+                    <h3>TALK TO STAFF</h3>
+                    <p>
+                        Suspendisse id mauris ut tellus mollis laoreet ut sit amet dolor. Aenean id metus quis libero ultrices
+                        accumsan vitae id turpis. Pellentesque dolor lectus, faucibus in malesuada vel, rhoncus a diam. Nunc
+                        mauris arcu, eleifend eu elementum id, vulputate id ligula. In mattis felis vel tortor fringilla volutpat.
+                        Cras efficitur quam in massa euismod vulputate. Phasellus nec pellentesque elit. Vivamus condimentum id
+                        sapien vitae efficitur.
+                    </p>
+                    <p><a href="a" class="btn btn-primary" role="button">Check It Out!</a></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4" id="views">
+                    <h3>ENJOY THE VIEWS</h3>
+                </div>
+                <div class="col-lg-4">
+                    <h3>BOOK YOUR VILLA</h3>
+                    <p>
+                        Suspendisse id mauris ut tellus mollis laoreet ut sit amet dolor.
+                        Aenean id metus quis libero ultrices accumsan vitae id turpis. Pellentesque dolor lectus,
+                        faucibus in malesuada vel, rhoncus a diam. Nunc mauris arcu, eleifend eu elementum id, vulputate
+                        id ligula. In mattis felis vel tortor fringilla volutpat. Cras efficitur quam in massa euismod
+                        vulputate. Phasellus nec pellentesque elit. Vivamus condimentum id sapien vitae efficitur.
+                    </p>
+                    <p><a href="a" class="btn btn-priamry" role="button">Check It Out!</a></p>
+                </div>
+                <div class="col-lg-4" id="dining">
+                    <h3>PRIVATE DINING</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="page-header">
+        <div class=row>
+            <div class="reviewSection">
+                <h1>REVIEWS</h1>
+                <h2>What our customers say</h2>
+
+                <!--<div class="row-lg-12">
+                    <h1>REVIEWS</h1>
+                    <h2>What our customers say</h2>
+                </div>-->
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="item active">
+                    <div class="carousel-caption">
+                        <h3>Best green beans in the world!!</h3>
+                        <p>Charlie, green bean enthusiast </p>
+
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="carousel-caption">
+                        <h3>Very calming and relaxing!</h3>
+                        <p>zzzzzz</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="carousel-caption">
+                        <h3>Lovely rooms,plenty of space</h3>
+                        <p>Everyone</p>
+                    </div>
+                </div>
+            </div>
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="contactSection">
+            <h1 class="Contact">CONTACT</h1>
+            <h2 class="Contact">We've got the answers</h2>
+        </div>
+    </div>
+
+    <div class="contactInfo">
+        <h4>Contact us and we'll get back to you within 24 hours</h4>
+        <h4><span class="glyphicons glyphicons-iphone">(440)221-0385</span></h4>
+        <h4><a href="#"><span class="glyphicon glyphicon-envelope">stacey.lynne13@yahoo.com</span></a></h4>
+    </div>
+
+
+
+
+
+
+
+
 
 </body>
 </html>
