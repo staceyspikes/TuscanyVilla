@@ -7,13 +7,28 @@ nav#menu.navbar.navbar-static-top{
     margin-bottom:0px;
     color:#fff6f0;
     background-color:#5DBCD2;
+    
 }
 #menu a{
-    color:#fff6f0;
+   color:white;
 }
+
 #menu a:hover{
     background-color: #5DBCD2;
 }
+#locations{
+    text-align:right;
+}
+#amenities{
+    text-align:right;
+}
+#reviews{
+    text-align:right;
+}
+#contact{
+    text-align:right;
+}
+
 
 #imgHead {
     margin: auto;
@@ -57,13 +72,11 @@ nav#menu.navbar.navbar-static-top{
 
 .subImages,img{
     height:200px;
-    width:200px;
+    width:300px;
 
 }
 #amenitiesHead{
     text-align:center;
-    margin-left:80px;
-    margin-right:80px;
     background-color:#5DBCD2;
 }
 #receptions {
@@ -71,6 +84,7 @@ nav#menu.navbar.navbar-static-top{
     background-image: url('TuscanyVilla/3b-348x348 (1).jpg');
     background-repeat:no-repeat;
     height:300px;
+    
     
 }
 #relax {
@@ -96,6 +110,7 @@ nav#menu.navbar.navbar-static-top{
     height:300px;
     
 }
+        
 #dining {
     background-image: url('TuscanyVilla/Villa-Vanna-231-348x348.jpg');
     background-repeat:no-repeat;
@@ -108,6 +123,10 @@ nav#menu.navbar.navbar-static-top{
 }
 .contactInfo{
     text-align:left;
+}
+footer{
+    text-align:center;
+    background-color:#5DBCD2;
 }
 
 

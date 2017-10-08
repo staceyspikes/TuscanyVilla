@@ -24,14 +24,16 @@
                 </button>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
-                <ul class="nav navbar nav">
+                <ul class="nav navbar-nav navbar-left">
                     <li class="active"><a href="#">Logo</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
                     <li><a href="#locations">Locations</a></li>
                     <li><a href="#amenities">Amenities</a></li>
                     <li><a href="#reviews">Reviews</a></li>
                     <li><a href="#contact">Contact</a></li>
-
                 </ul>
+                <div id="navbar" class="navbar-collapse collapse"></div>
             </div>
         </div>
     </nav>
@@ -60,7 +62,7 @@
     <div class="row container">
         <div class="col-lg-8 subLocation" id="location1">
             <h3 class="Locations">Location #1 </h3>
-            <h4 class="Locations"></h4>
+            <!--<h4 class="Locations"></h4>-->
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed dolor at tortor elementum interdum.
                 Duis in dui et augue dignissim facilisis id in lacus. Vestibulum viverra eros sapien, eu maximus lorem tempus sed.
@@ -71,28 +73,32 @@
             <p><a href="a" class="btn btn-primary" role="button">Reserve Now!</a></p>
 
         </div>
-        <div class="col-lg-4 subImages" id="img1">
+        <div class="col-lg-4 subImages">
             <img src="TuscanyVilla/italy-mountain-villa.jpeg" />
         </div>
-        <div class="col-lg-4 subImages" id="img2">
-            <img src="TuscanyVilla/modern-villa.jpeg" />
-        </div>
-        <div class="col-lg-8 subLocation2" id="location2">
-            <h3 class="Locations">Location #2</h3>
-            <h4 class="Locations"></h4>
-            <p>
-                Donec vitae suscipit risus. Curabitur vel hendrerit risus. Praesent et nulla nibh.
-                Praesent facilisis ac eros id lacinia. Aliquam pretium nibh sed magna dignissim, vitae elementum sapien egestas.
-                Nunc aliquam tincidunt ullamcorper. Curabitur efficitur sem vitae sodales volutpat. Nulla rhoncus ac ipsum eu
-                ultrices. Nullam vel sem vel odio vulputate interdum. Mauris luctus nisl at dapibus vulputate. Vestibulum eros
-                dui, pulvinar vehicula tempor at, accumsan tempus metus.
-            </p>
-            <p><a href="a" class="btn btn-primary" role="button">Check It Out!</a></p>
+    </div>
 
+        <div class="row">
+            <div class="col-lg-4 subImages">
+                <img src="TuscanyVilla/modern-villa.jpeg" />
+            </div>
+
+            <div class="col-lg-8 subLocation2" id="location2">
+                <h3 class="Locations">Location #2</h3>
+                <p>
+                    Donec vitae suscipit risus. Curabitur vel hendrerit risus. Praesent et nulla nibh.
+                    Praesent facilisis ac eros id lacinia. Aliquam pretium nibh sed magna dignissim, vitae elementum sapien egestas.
+                    Nunc aliquam tincidunt ullamcorper. Curabitur efficitur sem vitae sodales volutpat. Nulla rhoncus ac ipsum eu
+                    ultrices. Nullam vel sem vel odio vulputate interdum. Mauris luctus nisl at dapibus vulputate. Vestibulum eros
+                    dui, pulvinar vehicula tempor at, accumsan tempus metus.
+                </p>
+                <p><a href="a" class="btn btn-primary" role="button">Check It Out!</a></p>
+
+            </div>
         </div>
+        <div class="row">
         <div class="col-lg-8 subLocation3" id="location3">
             <h3 class="Locations">Location #3</h3>
-            <h4 class="Locations"></h4>
             <p>
                 Suspendisse id mauris ut tellus mollis laoreet ut sit amet dolor.
                 Aenean id metus quis libero ultrices accumsan vitae id turpis. Pellentesque dolor lectus, faucibus
@@ -102,10 +108,12 @@
             </p>
             <p><a href="a" class="btn btn-primary" role="button">Join Us!</a></p>
         </div>
-        <div class="col-lg-4 subImages" id="img3">
+
+        <div class="col-lg-4 subImages">
             <img src="TuscanyVilla/tuscany-grape-field-nature-51947.jpeg" />
         </div>
-    </div>
+        </div>
+    
 
 
 
@@ -163,7 +171,7 @@
                 <div class="col-lg-4" id="views">
                     <h3>ENJOY THE VIEWS</h3>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4" id="villa">
                     <h3>BOOK YOUR VILLA</h3>
                     <p>
                         Suspendisse id mauris ut tellus mollis laoreet ut sit amet dolor.
@@ -186,55 +194,56 @@
             <div class="reviewSection">
                 <h1>REVIEWS</h1>
                 <h2>What our customers say</h2>
-
-                <!--<div class="row-lg-12">
-                    <h1>REVIEWS</h1>
-                    <h2>What our customers say</h2>
-                </div>-->
             </div>
         </div>
     </div>
 
-    <div class="container">
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                <li data-target="#myCarousel" data-slide-to="1"></li>
-                <li data-target="#myCarousel" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-                <div class="item active">
-                    <div class="carousel-caption">
-                        <h3>Best green beans in the world!!</h3>
-                        <p>Charlie, green bean enthusiast </p>
+   <div class="container-fluid">
+    <div id="myReviews" class="carousel slide" data-ride="carousel">
+       
+        <ol class="carousel-indicators">
+            <li data-target="myReviews" data-slide-to="0" class="active"></li>
+            <li data-target="#myReviews" data-slide-to="1"></li>
+            <li data-target="#myReviews" data-slide-to="2"></li>
+        </ol>
 
-                    </div>
-                </div>
-
-                <div class="item">
-                    <div class="carousel-caption">
-                        <h3>Very calming and relaxing!</h3>
-                        <p>zzzzzz</p>
-                    </div>
-                </div>
-
-                <div class="item">
-                    <div class="carousel-caption">
-                        <h3>Lovely rooms,plenty of space</h3>
-                        <p>Everyone</p>
-                    </div>
+        
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="carousel-caption">
+                    <h3>Best green beans in the world!!!</h3>
+                    <p>Charlie, green bean enthusiast</p>
                 </div>
             </div>
-            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="right carousel-control" href="#myCarousel" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right"></span>
-                <span class="sr-only">Next</span>
-            </a>
+
+            <div class="item">
+                <div class="carousel-caption">
+                    <h3>Very calm and relaxing</h3>
+                    <p>zzzzz</p>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="carousel-caption">
+                    <h3>Lovely rooms,plenty of space</h3>
+                    <p>Everyone</p>
+                </div>
+            </div>
         </div>
+        
+
+        
+        <a class="left carousel-control" href="#myReviews" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myReviews" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+        </a>
     </div>
+    </div>
+    
 
     <div class="container-fluid">
         <div class="contactSection">
@@ -243,11 +252,43 @@
         </div>
     </div>
 
-    <div class="contactInfo">
+    <div class="row">
+    <div class="col-lg-6 contactInfo">
         <h4>Contact us and we'll get back to you within 24 hours</h4>
-        <h4><span class="glyphicons glyphicons-iphone">(440)221-0385</span></h4>
+        <h4><span class="glyphicon glyphicon-map-marker">Cleveland,OH</span></h4>
+        <h4><span class="glyphicon glyphicon-phone">(440)221-0385</span></h4>
         <h4><a href="#"><span class="glyphicon glyphicon-envelope">stacey.lynne13@yahoo.com</span></a></h4>
     </div>
+
+        
+        <div class="col-lg-3 form-group">
+            <label for="comment">Name:</label>
+            <textarea class="form-control" rows="1" id="name"></textarea>
+        </div>
+            
+            <div class="col-lg-3 form-group ">
+                <label for="comment">Email:</label>
+                <textarea class="form-control" rows="1" id="email"></textarea>
+            </div>
+            
+            <div class="col-lg-6 form-group ">
+                <label for="comment">Comment:</label>
+                <textarea class="form-control" rows="5" id="comment"></textarea>
+                <p><a href="a" class="btn btn-primary" role="button" id="submit">Submit</a></p>
+            </div>
+            
+        </div>
+
+    <footer>
+        <button type="button" class="btn btn-default btn-sm">
+            <span class="glyphicon glyphicon-menu-up"></span>
+        </button>
+        <p>Created by:Stacey Spikes</p>
+        <p>Not at all copyrighted</p>
+    </footer>
+        
+        
+    
 
 
 
