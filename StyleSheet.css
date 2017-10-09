@@ -78,12 +78,14 @@ nav#menu.navbar.navbar-static-top{
 #amenitiesHead{
     text-align:center;
     background-color:#5DBCD2;
+    
 }
 #receptions {
     text-align:center;
     background-image: url('TuscanyVilla/3b-348x348 (1).jpg');
     background-repeat:no-repeat;
     height:300px;
+    text-align:center;
     
     
 }
@@ -91,6 +93,7 @@ nav#menu.navbar.navbar-static-top{
     background-image: url('TuscanyVilla/42-348x348 (1).jpg');
     background-repeat:no-repeat;
     height:300px;
+    text-align:center;
     
 }
 .reviewSection{
@@ -102,12 +105,15 @@ nav#menu.navbar.navbar-static-top{
     background-image: url('TuscanyVilla/314-348x348.jpg');
     background-repeat:no-repeat;
     height:300px;
+    text-align:center;
+    
     
 }
 #views {
     background-image: url('TuscanyVilla/Villa-Rucellai-Toscani-2812-2-348x348.jpg');
     background-repeat:no-repeat;
     height:300px;
+    text-align:center;
     
 }
         
@@ -124,6 +130,9 @@ nav#menu.navbar.navbar-static-top{
 }
 .contactInfo{
     text-align:left;
+}
+myReviews{
+    
 }
 footer{
     text-align:center;
